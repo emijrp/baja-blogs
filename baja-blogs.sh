@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for blog in cronicashungaras.blogspot.com.es imbratisare.blogspot.com.es labocadora.blogspot.com.es elterritoriodellince.blogspot.com.es blogdelviejotopo.blogspot.com.es miguel-esposiblelapaz.blogspot.com.es amistadhispanosovietica.blogspot.com.es
+for blog in elterritoriodellince.blogspot.com
 do
     mkdir "${blog}-$(date +%Y%m%d)"
     cd "${blog}-$(date +%Y%m%d)"
